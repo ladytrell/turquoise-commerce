@@ -2,7 +2,7 @@
   
   ## Description
 
- 
+ A database to track inventory.  Contains tables for categories, products, tags and productTags to relate products and tags.  Items can modified, edited, and removed from any of the table.  
 
 
   ## Table of Contents (Optional)
@@ -15,15 +15,20 @@
   ## Installation
 
  - Clone or download the application repository 
-[Team Builder](https://github.com/ladytrell/e-commerce)
+[E-Commerce](https://github.com/ladytrell/turquoise-commerce)
  - Download and Install node.js if not already installed.  [node.js](https://nodejs.org/en/) for your platform:  [How to Install Node.js](https://nodejs.dev/learn/how-to-install-nodejs)
 
   ## Usage
 
  - Go to the directory location where you saved the application 
+ - Install mysql for your platform
+ - If your platform is Microsoft Windows or Mac OS, use the native command line for the next line
+     -  source db/schema.sql
  - Install dependencies
- - npm install
- - Type 'node index' to start the application. 
+     - npm install
+ - Seed the database
+     - npm run seed 
+ - Type 'node server' to start the application. 
 
 
   ## Demo Images
